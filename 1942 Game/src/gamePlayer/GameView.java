@@ -125,7 +125,7 @@ public class GameView extends JFrame {
      * @return  button
      */
      public JButton getButton(){
-    	 return button;
+    	 return button; 
      }
      /**
       * This seems to be a way to switch JPanels.  Let me know of any bugs
