@@ -1,7 +1,12 @@
  
 	package gamePlayer;
 	import java.awt.event.*;
-
+	
+	/**
+	 * This reacts to selections from the menu, and also
+	 * implements the keyboard shortcuts.
+	 * @author Ilya Rakevich
+	 */
 	public class GameMenueController extends KeyAdapter implements ActionListener{
 	private GameModel model;
 	private GameView view;
